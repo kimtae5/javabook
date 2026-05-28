@@ -1,0 +1,12 @@
+package ch02;
+
+class FloatToBinEx {
+    public static void main(String[] args) {
+        float f = 9.1234567f;
+        int i = Float.floatToIntBits(f); // float → 32비트 정수 변환
+
+        System.out.printf("%f%n", f);
+        System.out.printf("%X%n", i);    // 16진수 출력
+    }
+
+}
