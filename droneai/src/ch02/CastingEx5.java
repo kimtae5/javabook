@@ -5,10 +5,10 @@ class CastingEx5 {
         String str="3";
 
         System.out.println(str.charAt(0)-'0');
-        System.out.println("f   = " + f);
-        System.out.println("i2  = " + i2);
-        System.out.println("d   = " + d);
-        System.out.println("i3  = " + i3);
+        System.out.println('3'-'0'+1);
+        System.out.println(Integer.parseInt("3")+1);
+        System.out.println("3"+1);
+        System.out.println((char)(3+'0'));
     }
 }
 
